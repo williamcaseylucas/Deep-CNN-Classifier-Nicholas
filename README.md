@@ -67,3 +67,13 @@
   - scaled = batch[0] / 255
   - have to do this for every batch
 - good way to scale images -> through data pipeline
+
+## Training
+
+- val going up while loss going down indicates overfitting
+  - means add regularization or add datum
+- if it is too consistent across the board, might need more sophisticated nn
+
+## Save model
+
+- save as .keras or .h5
